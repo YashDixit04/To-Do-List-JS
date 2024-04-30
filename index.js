@@ -20,6 +20,6 @@ listContainer.addEventListener("click", function(e){
         e.target.classList.toggle("checked");
     }
     else if(e.target.tagName === 'SPAN'){
-        e.target.parenElement.remove();
+        e.target.parentElement.remove();
     }
-})
+}, false)
